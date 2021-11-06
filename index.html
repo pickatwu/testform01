@@ -87,12 +87,11 @@ h1 {
 }
 </style>
 <script>
-    
-    function a() {
 
-      window.open("2.html")
-          
-    }
+function a() {
+    window.open("2.html")
+    close("index.html")
+}
 
 </script>
 <body>
@@ -107,7 +106,7 @@ h1 {
 <input id="user" required="" type="" name="entry.366340186" placeholder=" Username"></center>
 <center>
 <input id="chat" required=""type="" name="entry.401029973" placeholder=" Chat"></input>
-<button id="submit" onclick="setTimeout(a(), 100)" type="submit">Send</button></center>
+<a href="2.html"><button id="submit" onclick="setTimeout(a(), 100)" type="submit">Send</button></a></center>
 
 </form>
 </center>

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/icon.png">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="bulma/bulma.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    
     <title>Form test</title>
 </head>
 <style>
@@ -55,56 +55,48 @@ html {
       }
     }
 
-#user {
-    font-family: Helvetica, sans-serif;
-border: transparent;
-border-radius: 40px;
-margin-bottom: 5px;
-}
-
-#chat {
-    font-family: Helvetica, sans-serif;
-    border: transparent;
-border-radius: 40px;
-margin-bottom: 5px;
-
-}
-
-#submit {
-    font-size: 10px;
-    padding: 5px;
-    font-family: Helvetica, sans-serif;
-border-radius: 40px;
-border: transparent;
-margin-bottom: 5px;
-background-color: gray; 
-color: white;
-}
-
-h1 {
-    color: white;
-    font-size: medium;
-}
 </style>
 
 <body>
     
 <div class="hero is-primary is-medium">
     <div class="hero-body">
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdOzJMffcwrrq87o46DQTzXXClaOJDvSfCm5AIlTni84rDfcg/formResponse">
+<div class="field is-horizontal">
+  <div class="field-label is-normal">
+    <label class="heading">Name</label>
+  </div>
+  <div class="field-body">
+    <div class="field">
+      <p class="control">
+        <input class="is-rounded button   " type="text" id="user" required="" type="" name="entry.366340186" >
+      </p>
+    </div>
+  </div>
+</div>
 
+<div class="field is-horizontal">
+  <div class="field-label is-normal">
+    <label class="heading">Feedback</label>
+  </div>
+  <div class="field-body">
+    <div class="field">
+      <p class="control">
+        <input class="button   is-rounded"
+        id="chat" required=""type="text" name="entry.401029973" ></input>
+      
+      </p>
+      <p class="mt-2"></p>
+      <button id="submit" type="submit" class="button is-pulled-right is-dark">Send</button>
+    </div>
+  </div>
+</div>
     
-<center><form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdOzJMffcwrrq87o46DQTzXXClaOJDvSfCm5AIlTni84rDfcg/formResponse">
-<center>
-    <h1>Test Form</h1>
-    <p class="heading">user name</p>
-<input id="user" required="" type="" name="entry.366340186" ></center>
-<center>
-    <p class="heading">Feedback</p>
-<textarea id="chat" required=""type="" name="entry.401029973"></textarea>
-<<button id="submit" type="submit">Send</button></center>
+ 
+ 
 
 </form>
-</center>
+ 
 </div>
 </div>
 
